@@ -15,7 +15,7 @@ public class Node {
         // ---------- LİSTEYİ YAZDIR ----------
         public void yazdir() {
             temp = head;                         // baştan başla
-            while (temp != null) {               // liste bitene kadar
+            while (temp != null) {               // liste bitene kadar temp boş olmadığı sürece gez
                 System.out.println(temp.data);   // sayıyı yaz
                 temp = temp.next;                // sağdaki düğüme geç
             }
